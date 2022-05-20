@@ -1,0 +1,251 @@
+.main {
+    margin: 10px 0px 10px 220px;
+    width: 980px;
+    height: 455px;
+    /* background-color: yellow; */
+}
+
+.main .focusimg {
+    float: left;
+}
+
+.main .newflash {
+    float: right;
+    height: 375px;
+    width: 253px;
+    border: 1px solid #e4e4e4;
+    border-bottom: none;
+}
+
+.newflash dt {
+    position: relative;
+    padding-left: 16px;
+    border-bottom: 1px dotted #e4e4e4;
+    height: 33px;
+    line-height: 33px;
+    color: #333;
+    font-size: 14px;
+}
+
+.newflash dt>a{
+    position: absolute;
+    right: 15px;
+    color: #666;
+
+}
+.newflash dt>a::after{
+    font-family: 'icomoon';
+    content: '\ea50';
+}
+
+.newflash dd {
+     padding-left: 16px;
+     height: 26px;
+     line-height: 26px;
+     /* 最好加一个文字溢出用省略号 */
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+}
+
+.newflash dd a {
+    color: #666;
+}
+
+.newflash dd a i {
+    font-weight: 700;
+}
+
+.newflash ul li {
+    position: relative;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    float: left;
+    width: 64px;
+    height: 72px;
+    border: 1px solid #e4e4e4;
+}
+
+.newflash ul li i {
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
+.newflash ul{
+    width: 253px;
+    height: 210px;
+    background: url(../images/icons.png) no-repeat 0px 0px;
+}
+.newflash ul li {
+    text-align: center;
+    padding-top: 48px;
+}
+.newflash img {
+    margin-top: 3px;
+}
+
+
+/* 5.  recom  start */
+.recom {
+    margin-top: 10px;
+    height: 163px;
+background-color: #ebebeb;
+}
+.recom-hd {
+    position: relative;
+    float: left;
+    width: 206px;
+    height: 100%;
+    background-color: #5c5251;
+/* text-align: center; */
+}
+
+.recom-hd i {
+    position: absolute;
+    top: 98px;
+    left: 60px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.recom-hd img {
+    position: absolute;
+    top: 30px;
+    left: 68px;
+}
+
+.recom-bd ul li {
+    position: relative;
+float: left;
+}
+.recom-bd ul li:nth-of-type(-n+3)::after {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    content: ' ';
+    width: 1px;
+    height: 145px;
+    background-color: #dddddd;
+}
+
+/* 6. start */
+.like {
+    height: 265px;
+    /* background-color: yellow; */
+    margin-top: 30px;
+}
+.like_you {
+    position: relative;
+    font-size: 18px;
+}
+
+.like_you i {
+    position: absolute;
+    right: 48px;
+    font-size: 12px;
+    color: #666;
+}
+.like_you i::after {
+    position : absolute;
+    right: -24px;
+    top: 2px;
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/icons.png) no-repeat -421px -111px;
+}
+
+.like_pro ul {
+    height: 232px;
+    border: 1px solid #ededed;
+    margin-top: 10px;
+}
+
+.like_pro ul li {
+    float: left;
+    width: calc(100% / 6);
+    height: 100%;
+    text-align: center;
+}
+
+.like_pro ul .detail {
+    padding: 12px 42px 8px 32px;
+}
+
+.like_pro ul .detail h5{
+    color: #666;
+    font-weight: normal;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.like_pro ul .detail .pro_price {
+    color: #df3033;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* 7.  floor 1 jiadian start */
+.jiadian {
+    margin-top: 12px;
+}
+.jiadian .box_hd {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #c81623;
+    color: #c81623;
+    font-size: 18px;
+}
+
+.jiadian .box_hd ul li {
+    float: left;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.jiadian .box_hd ul li a {
+    color: #666;
+    font-size: 12px;
+}
+.jiadian .box_hd ul li:nth-child(2n) {
+    content: '';
+    width: 1px;
+    height: 12px;
+    background-color: #999;
+    margin-top: 17px;
+}
+.jiadian .box_bd {
+    height: 360px;
+    /* background-color: yellow; */
+}
+.tab_content .tab_list_item1>div {
+    float: left;
+}
+
+.tab_content .tab_list_item1 .col_210 {
+    width: 210px;
+    height: 360px;
+    background-color: #f9f9f9;
+}
+.tab_content .tab_list_item1 .col_210 ul  li {
+    float: left;
+    width: 86px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+    color: #666;
+    font-size: 12px;
+}
+.tab_content .tab_list_item1 .col_210 ul  li:nth-child(odd) {
+    margin: 0px 15px; 
+}
+
+.tab_content .tab_list_item1 .col_329 {
+    width: 329px;
+    height: 360px;
+} 

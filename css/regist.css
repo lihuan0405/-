@@ -1,0 +1,109 @@
+header {
+    border-bottom: 2px solid #b1191a;
+    padding: 10px 0px 5px 0px;
+}
+.registerarea {
+    height: 520px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+h4 {
+    position:relative;
+    margin-bottom: 50px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;  
+    padding-left: 10px;
+}
+h4 p {
+    position:absolute;
+    right: 20px;
+    top: 0px;
+    font-size: 14px;
+}
+.reg-form {
+    width: 600px;
+    margin: 0px auto;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+.reg-form ul li {
+    margin-bottom: 20px;
+}
+.reg-form input {
+    height: 36px;
+    width: 240px;
+    border: 1px solid #999;
+}
+.reg-form .error{
+    color: #df3033;
+}
+.reg-form .error img {
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.reg-form label {
+    /* label是行内元素 需要转换为行内块元素 才能给宽度 */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.reg-form .success{
+    color: green;
+}
+.reg-form .safe{
+    margin: 0px 0px 20px 170px;
+    color: #b2b2b2;
+    font-size: 12px;
+}
+.reg-form .safe em {
+    display: inline-block;
+    width: 24px;
+    height: 14px;
+    margin-right: 1px;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+}
+.reg-form .safe .ruo {
+    background-color: red;
+}
+.reg-form .safe .zhong {
+    background-color: green;
+}
+.reg-form .safe .qiang {
+    background-color: #f79100;
+}
+.reg-form  .agree { 
+    margin-top: 40px;
+    margin-left: 100px;
+    vertical-align: top;
+}
+.reg-form  .agree .ckb {
+    width: 14px;
+    height: 14px;
+    background-color: #f2f2f2;
+    margin-right: 12px;
+}
+.reg-form  .agree>a {
+    color: #4fafe9;
+}
+.reg-form  .complete {
+    width: 200px;
+    height: 35px;
+    margin-left: 110px;
+    margin-top: 25px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 14px;
+}
+footer{
+    margin-top: 20px !important;
+    height: 120px;
+}

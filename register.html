@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新用户注册</title>
+
+    <!-- 网站说明不用写 -->
+
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式  版心宽度，清除浮动，页面文字颜色等-->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/regist.css">
+    <!-- 用bitbug网页将png转化成ico格式 并放在根目录下 -->
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+    <!-- 2.  头部区域开始了 -->
+    <header class="w"><img src="images/logo.png" alt=""></header>
+    <!-- 2.  头部区域结束了 -->
+
+    <!-- 注册详情开始啦 -->
+    <div class="registerarea w">
+        <h4>注册新用户<p>我有账号，去<a href="#" class="style_red">登陆</a></p>
+        </h4>
+        <div class="reg-form">
+            <!-- 不要用表格 实际开发都是用li -->
+            <form action="">
+                <ul>
+                    <li><label for="">手机号：</label><input type="tel">
+                        <span class="error">&nbsp;<img src="images/error.png" alt="">
+                            手机号码格式不正确，请从新输入</span>
+                    </li>
+                    <li><label for="">短信验证码：</label><input type="tel">
+                        <span class="success"> 短信验证成功</span>
+                    </li>
+                    <li><label for="">登陆密码：</label><input type="password">&nbsp;
+                        <span class="error"><img src="images/error.png" alt=""> 密码不少于6位数，请从新输入</span>
+                    </li>
+                    <li class="safe">安全程度
+                        <em class="ruo">弱</em><em class="zhong">中</em><em class="qiang">强</em>
+                    </li>
+                    <li><label for="">确认密码：</label><input type="password">&nbsp;
+                        <span class="error"> <img src="images/error.png" alt=""> 密码不一致，请从新输入</span>
+                    </li>
+                    <li class="agree"> <input class="ckb" type="checkbox">同意协议并注册<a href="#">《品优购用户协议》</a></li>
+
+                    <li><input type="submit" class="complete" value="完成注册"> </li>
+
+                </ul>
+            </form>
+
+        </div>
+    </div>
+    <!-- 注册详情开始啦 -->
+
+
+    <!--   footer 开始啦 -->
+    <footer class="w">
+
+        <div class="mod_copyright">
+            <div class="links clearfix">
+                <ul>
+                    <li><a href="">关于我们</a></li>
+                    <li></li>
+                    <li><a href="">联系我们</a></li>
+                    <li></li>
+                    <li><a href="">联系客服</a></li>
+                    <li></li>
+                    <li><a href="">商家入驻</a></li>
+                    <li></li>
+                    <li><a href="">营销中心</a></li>
+                    <li></li>
+                    <li><a href="">手机品优购</a></li>
+                    <li></li>
+                    <li><a href="">友情链接</a></li>
+                    <li></li>
+                    <li><a href="">销售联盟</a></li>
+                    <li></li>
+                    <li><a href="">品优购社区</a></li>
+                    <li></li>
+                    <li><a href="">品优购公益</a></li>
+                    <li></li>
+                    <li><a href="">English Site</a></li>
+                    <li></li>
+                    <li><a href="">Contact U</a></li>
+                </ul>
+            </div>
+            <div class="copyright">地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱:
+                zhanghj+itcast.cnbr
+                <p>京ICP备08001421号京公网安备110108007702</p>
+
+            </div>
+        </div>
+
+    </footer>
+    <!--   footer 结束啦 -->
+
+</body>
+
+</html>
